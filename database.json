@@ -1,0 +1,58 @@
+{
+  "users": {
+    "user_SG9uZXlt": {
+      "uid": "user_SG9uZXlt",
+      "email": "Honeymod@gmail.com",
+      "displayName": "Honeymod",
+      "photoURL": "https://api.dicebear.com/7.x/avataaars/svg?seed=user_SG9uZXlt",
+      "role": "moderator",
+      "applicationStatus": "approved",
+      "joinedAt": "2026-05-10T12:35:15.143Z"
+    },
+    "user_VmFyZ2Fz": {
+      "uid": "user_VmFyZ2Fz",
+      "email": "Vargasaquila@gmail.com",
+      "displayName": "Vargasaquila",
+      "photoURL": "https://api.dicebear.com/7.x/avataaars/svg?seed=user_VmFyZ2Fz",
+      "role": "applicant",
+      "applicationStatus": "none",
+      "joinedAt": "2026-05-10T12:35:41.486Z"
+    },
+    "user_dmFyZ2Fz": {
+      "uid": "user_dmFyZ2Fz",
+      "email": "vargasaquila@gmail.com",
+      "displayName": "vargasaquila",
+      "photoURL": "https://api.dicebear.com/7.x/avataaars/svg?seed=user_dmFyZ2Fz",
+      "role": "member",
+      "applicationStatus": "approved",
+      "joinedAt": "2026-05-10T12:49:07.327Z"
+    },
+    "user_YXplbmV0": {
+      "uid": "user_YXplbmV0",
+      "email": "azenethfayejaum6@gmail.com",
+      "displayName": "azenethfayejaum6",
+      "photoURL": "https://api.dicebear.com/7.x/avataaars/svg?seed=user_YXplbmV0",
+      "role": "member",
+      "applicationStatus": "approved",
+      "joinedAt": "2026-05-10T12:51:09.088Z"
+    }
+  },
+  "events": [],
+  "photos": [],
+  "suggestions": [],
+  "applications": [
+    {
+      "userId": "user_dmFyZ2Fz",
+      "userName": "vargasaquila",
+      "status": "approved",
+      "answers": {
+        "q1": "To know the members and have fun",
+        "q2": "All of them",
+        "q3": "The prom event and their mini games"
+      },
+      "submittedAt": "2026-05-10T12:49:43.257Z",
+      "id": "84vleh5vd"
+    }
+  ],
+  "modLogs": []
+}

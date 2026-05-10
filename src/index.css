@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant+Garamond", serif;
+  
+  --color-bento-bg: #FDFCFB;
+  --color-bento-ink: #2D241E;
+  --color-bento-primary: #8B5E34;
+  --color-bento-secondary: #5E3023;
+  --color-bento-accent: #F5EBE0;
+  --color-bento-border: #E3D5CA;
+  --color-bento-muted: #A9927D;
+}
+
+@layer base {
+  body {
+    @apply bg-bento-bg text-bento-ink font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-bento-secondary;
+  }
+}
+
+.bento-card {
+  @apply bg-white rounded-3xl p-6 shadow-sm border border-bento-border;
+}
+
+.bento-button-primary {
+  @apply bg-bento-primary text-white rounded-xl px-6 py-3 font-sans font-bold uppercase text-xs tracking-wider transition-all hover:opacity-90 disabled:opacity-50;
+}
+
+.bento-button-secondary {
+  @apply bg-bento-secondary text-white rounded-xl px-6 py-3 font-sans font-bold uppercase text-xs tracking-wider transition-all hover:opacity-90 disabled:opacity-50;
+}
+
+.bento-pill {
+  @apply bg-bento-accent px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider text-bento-primary border border-bento-border;
+}
+
+.bento-input {
+  @apply bg-bento-bg border border-bento-border rounded-xl px-4 py-3 text-xs outline-none focus:ring-1 ring-bento-primary;
+}
+
+.themed-frame {
+  @apply border-[12px] border-bento-primary p-1 shadow-inner relative;
+}
